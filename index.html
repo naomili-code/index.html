@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DressHut</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">        
+    </head>
+
+    <!--BODY BODY BODY-->
+    <body>
+        <header>
+            <h2>DressHut</h2>
+        </header>
+
+        <main>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Tokyo</a></li>
+                    </ul>
+                </nav>
+                <article>
+                    <p>Upload an image here.</p>
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                        <input type="file" name="image" accept="image/*">
+                        <button type="submit">Upload Image</button>
+                    </form>
+                    <p>Need to display an image here.</p>
+                </article>
+            </section> 
+            <aside></aside>
+            <footer>
+                <h4>This is the footer</h4>
+                <p>By Naomi Li</p>
+                <p>Congressional APP Challenge</p>
+            </footer>
+        </main>
+
+    </body>
+</html>
